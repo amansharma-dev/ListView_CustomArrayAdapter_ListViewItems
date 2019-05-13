@@ -15,8 +15,9 @@
         android:layout_width="110dp"
         android:layout_height="100dp"
         android:layout_marginEnd="5dp"
-        tools:src="@drawable/drake"
-        android:adjustViewBounds="true" />
+        android:adjustViewBounds="true"
+        android:contentDescription="image"
+        tools:ignore="HardcodedText" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -32,7 +33,8 @@
             android:layout_height="wrap_content"
             android:text="God's Plan"
             android:textColor="#f5f6fa"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/artistName"
@@ -40,7 +42,8 @@
             android:layout_height="wrap_content"
             android:text="Drake"
             android:textColor="#f5f6fa"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
@@ -63,7 +66,9 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_thumb_up_black_24dp"
             android:layout_gravity="center"
-            android:adjustViewBounds="true"/>
+            android:adjustViewBounds="true"
+            android:contentDescription="image"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/likes"
@@ -73,7 +78,8 @@
             android:gravity="bottom"
             android:text="9"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#f5f6fa"/>
+            android:textColor="#f5f6fa"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
 
@@ -89,7 +95,9 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_graphic_eq_black_24dp"
             android:layout_gravity="center"
-            android:adjustViewBounds="true"/>
+            android:adjustViewBounds="true"
+            android:contentDescription="image"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/views"
@@ -99,7 +107,8 @@
             android:gravity="bottom"
             android:text="12"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#f5f6fa"/>
+            android:textColor="#f5f6fa"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
     </RelativeLayout>
